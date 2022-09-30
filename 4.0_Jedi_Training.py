@@ -27,13 +27,13 @@
 #
 #
 #  # 4. Make the following program work. (4 mistakes)
-#
-# # jedi = input("Name one of the top 3 greatest Jedi.") #Changed undefined "x" to variable "jedi"
-# # if jedi == "Yoda" or jedi == "Luke Skywalker" or jedi== "Obi-Wan Kenobi":  # Added quotations #Added jedi==
-# #     print("That is correct!") #Added parenthesis
-# # else:
-# #     print("That is incorrect!") #Added Else for incorrect answers
-#
+
+jedi = input("Name one of the top 3 greatest Jedi.") #Changed undefined "x" to variable "jedi"
+if jedi.lower() == "yoda" or jedi.lower() == "luke skywalker" or jedi.lower()== "obi-wan kenobi":  # Added quotations #Added jedi==
+    print("That is correct!") #Added parenthesis
+else:
+    print("That is incorrect!") #Added Else for incorrect answers
+
 #  # # 5. Make the following program work whether they enter a, A, Jedi Master or jedi master
 #  # #    Print "Not a choice!" if they don't choose any of the three and set sensitivity to blank text.
 #
