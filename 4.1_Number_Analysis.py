@@ -17,7 +17,7 @@ if number > 0:
     print("Test 2: Positive")
 elif number < 0:
     print("Test 2: Negative")
-elif number == 0:
+else:
     print("Test 2: Zero")
 if number > 100 or number < -100:
     print("Test 3: Exclusive")
